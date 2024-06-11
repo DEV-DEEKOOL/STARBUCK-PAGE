@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+
+}
+p {
+    font-size: 2.4rem;
+    line-height: 1.5;
+}
+header {
+    position: relative;
+    background-color: white;
+    width: 100vw;
+    height: 15vh;
+    border-bottom: 2px solid grey;
+}
+.hdlogo {
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+ul {
+    position: absolute;
+    top: 35px;
+    left: 120px;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+}
+  
+  li {
+    float: left;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 700;
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    
+  }
+  li a:hover {
+    color: green;
+  }
+  .btn {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    text-decoration: none;
+  }
+  .btn1 {
+    background-color:inherit;
+    color:rgb(5, 5, 5);
+    border:0px;
+    border-radius: 20px;
+    padding:9px 10px;
+    margin: 25px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+.btn2 {
+    background-color:inherit;
+    color:rgb(5, 5, 5);
+    border:1px solid black;
+    border-radius: 20px;
+    padding:7px 12px;
+    margin: 25px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.btn3 {
+    background-color:black;
+    color:white;
+    border:1px solid black;
+    border-radius: 20px;
+    padding:7px 13px;
+    margin: 0px 5px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+button a {
+    text-decoration: none;
+    color: inherit;
+
+}
+.mdivv {
+    position: relative;
+    top: 25px;
+    width: 100vw;
+    height: 96vh;
+    background-color: rgb(211, 232, 225);
+}
+.sectii {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    font-size: 3rem;
+    color: rgb(15,70,47);
+    text-align: center;
+}
+.secti {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.mdiv {
+    position: relative;
+    top: 50px;
+    width: 100vw;
+    height: 97.2vh;
+    background-color: rgb(253,216,247);
+}
+.sect1 {
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    font-size: 3rem;
+    color: rgb(15,70,47);
+    text-align: center;
+}
+.sect1i {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 50vw;
+    height: 100vh;
+}
+.btn4 {
+    background-color:inherit;
+    color:rgb(15,70,47);
+    border:1px solid black;
+    border-radius: 20px;
+    padding:7px 12px;
+    margin: 25px;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.mdiv1 {
+    position: relative;
+    top: 70px;
+    width: 100vw;
+    height: 62.5vh;
+    background-color: rgb(151,216,177);
+}
+.sect2 {
+    position: absolute;
+    left: 0px;
+
+}
+.sect2i {
+    position: absolute;
+    right: 100px;
+    top: 120px;
+    font-size: 2rem;
+    text-align: center;
+}
+.btn5 {
+    background-color:inherit;
+    color:rgb(15,70,47);
+    border:1px solid black;
+    border-radius: 20px;
+    padding:7px 12px;
+    margin: 25px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.mdiv2 {
+    position: relative;
+    top: 85px;
+    width: 100vw;
+    height: 90vh;
+    background-color: rgb(206,232,201);
+}
+.sect3 {
+    position: absolute;
+    left: 100px;
+    top: 120px;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(15,70,47);
+}
+.sect3i {
+    position: absolute;
+    right: 0px;
+    width: 50vw;
+    height: 90vh;
+}
+.mdiv3 {
+    position: relative;
+    top: 95px;
+    background-image: url("downloadbg.png");
+    width: 100vw;
+    height: 80vh;
+    background-size: cover;
+    color: white;
+
+}
+.sect4 {
+    position: absolute;
+    right: 100px;
+    top: 150px;
+    font-size: 3rem;
+    text-align: center;
+}
+.btn6 {
+    background-color:inherit;
+    color:white;
+    border:1px solid white;
+    border-radius: 20px;
+    padding:7px 12px;
+    margin: 25px;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.mdiv4 {
+    position: relative;
+    top: 120px;
+    width: 100vw;
+    height: 63vh;
+    background-color: rgb(212,233,226);
+    color: rgb(15,70,47);
+
+}
+.sect5 {
+    position: absolute;
+    left: 100px;
+    font-size: 2.5rem;
+    top: 100px;
+}
+.sect5i {
+    position: absolute;
+    right: 0px;
+    height: 63vh;
+    width: 50vw;
+}
+#lstd {
+    font-size: 2rem;
+}
+.mdiv5 {
+    position: relative;
+    top: 150px;
+    width: 100vw;
+    height: 20vh;
+    text-align: center;
+    font-size: 1.7rem;
+    padding-top: 20px;
+    line-height: 2;
+    border-bottom: 2px solid grey;
+    color: rgb(14, 61, 22);
+}
+.foot {
+    position: relative;
+    width: 100vw;
+    height: 80vh;
+    border-bottom: 2px solid grey;
+
+}
+.footone {
+    position: absolute;
+    top: 180px;
+    font-size: 1.6rem;
+    line-height: 2;
+    left: 50px;
+    text-decoration: none;
+}
+.foot a {
+    text-decoration: none;
+    color: grey;
+}
+.foottwo {
+    position: absolute;
+    top: 180px;
+    font-size: 1.6rem;
+    line-height: 2;
+    left: 250px;
+    width: 13vw;
+    text-decoration: none;
+}
+.foot3 {
+    position: absolute;
+    top: 180px;
+    font-size: 1.6rem;
+    line-height: 2;
+    left: 450px;
+    width: 14vw;
+    text-decoration: none;
+}
+.foot4 {
+    position: absolute;
+    top: 180px;
+    font-size: 1.6rem;
+    line-height: 2;
+    right: 500px;
+    width: 14vw;
+    text-decoration: none;
+}
+.foot5 {
+    position: absolute;
+    top: 180px;
+    font-size: 1.6rem;
+    line-height: 2;
+    right: 200px;
+    text-decoration: none;
+    width: 14vw;
+}
+footer {
+        position: relative;
+        width: 100vw;
+        line-height: 2;
+
+}
+.foot6 {
+    position: absolute;
+    top: 80px;
+    font-size: 1.6rem;
+    line-height: 2.5;
+    left: 50px;
+    text-decoration: none;
+    width: 13vw;
+}
+footer a {
+    text-decoration: none;
+    color:black;
+}
+.lstfoot {
+    position: absolute;
+    top: 420px;
+    left: 50px;
+    font-size: 1.5rem;
+    color: grey;
+}
