@@ -206,7 +206,7 @@ button a {
 .mdiv3 {
     position: relative;
     top: 95px;
-    background-image: url("downloadbg.png");
+    background-image: url("./downloadbg.png");
     width: 100vw;
     height: 80vh;
     background-size: cover;
