@@ -9,7 +9,7 @@ html {
 }
 body {
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: 100vh;
 
 }
@@ -18,21 +18,19 @@ p {
     line-height: 1.5;
 }
 header {
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: white;
-    width: 100vw;
+    width: 100%;
     height: 15vh;
     border-bottom: 2px solid grey;
 }
 .hdlogo {
-    position: absolute;
-    top: 25px;
-    left: 50px;
+    width: 5rem;
+    height: 5rem;
 }
 ul {
-    position: absolute;
-    top: 35px;
-    left: 120px;
     text-align: center;
     list-style-type: none;
     margin: 0;
@@ -60,10 +58,13 @@ ul {
     color: green;
   }
   .btn {
-    position: absolute;
-    top: 10px;
-    right: 50px;
+    width: 35rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     text-decoration: none;
+    margin-left: 35rem;
   }
   .btn1 {
     background-color:inherit;
@@ -71,10 +72,11 @@ ul {
     border:0px;
     border-radius: 20px;
     padding:9px 10px;
-    margin: 25px;
-    margin-top: 30px;
     font-weight: 700;
     font-size: 1.4rem;
+}
+.btn1 a:hover {
+    color: rgb(18, 148, 18);
 }
 .btn2 {
     background-color:inherit;
@@ -82,9 +84,9 @@ ul {
     border:1px solid black;
     border-radius: 20px;
     padding:7px 12px;
-    margin: 25px;
     font-weight: 600;
     font-size: 1.4rem;
+    margin-left: 3rem;
 }
 .btn3 {
     background-color:black;
@@ -92,9 +94,9 @@ ul {
     border:1px solid black;
     border-radius: 20px;
     padding:7px 13px;
-    margin: 0px 5px;
     font-weight: 600;
     font-size: 1.4rem;
+    margin-left: 2rem;
 }
 button a {
     text-decoration: none;
@@ -102,46 +104,57 @@ button a {
 
 }
 .mdivv {
-    position: relative;
+    display: flex;
     top: 25px;
-    width: 100vw;
+    width: 100%;
     height: 96vh;
     background-color: rgb(211, 232, 225);
 }
 .sectii {
-    position: absolute;
-    right: 100px;
-    top: 150px;
+    width: 50vw;
+    height: 96vh;
     font-size: 3rem;
     color: rgb(15,70,47);
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
 .secti {
-    position: absolute;
-    left: 0px;
-    top: 0px;
+    width: 50vw;
+    height: 96vh;
+}
+.secti img {
+    max-width: 100%;
+    height: 100%;
 }
 .mdiv {
-    position: relative;
-    top: 50px;
-    width: 100vw;
-    height: 97.2vh;
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    height: 96vh;
     background-color: rgb(253,216,247);
 }
 .sect1 {
-    position: absolute;
-    left: 100px;
-    top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 3rem;
     color: rgb(15,70,47);
     text-align: center;
+    width: 50vw;
+    height: 96vh;
 }
 .sect1i {
-    position: absolute;
-    right: 0px;
-    top: 0px;
     width: 50vw;
-    height: 100vh;
+    height: 96vh;
+}
+.sect1i img {
+    max-width: 100%;
+    height: 100%;
 }
 .btn4 {
     background-color:inherit;
@@ -154,23 +167,30 @@ button a {
     font-size: 1.4rem;
 }
 .mdiv1 {
-    position: relative;
-    top: 70px;
-    width: 100vw;
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
     height: 62.5vh;
-    background-color: rgb(151,216,177);
 }
 .sect2 {
-    position: absolute;
-    left: 0px;
+    width: 50vw;
+    height: 62.5vh;
 
 }
+.sect2 img{
+    max-width: 100%;
+    height: 100%;
+}
 .sect2i {
-    position: absolute;
-    right: 100px;
-    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     font-size: 2rem;
     text-align: center;
+    width: 50vw;
+    height: 62.5vh;
+    background-color: rgb(151,216,177);
 }
 .btn5 {
     background-color:inherit;
@@ -183,42 +203,50 @@ button a {
     font-size: 1.6rem;
 }
 .mdiv2 {
-    position: relative;
-    top: 85px;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
     height: 90vh;
     background-color: rgb(206,232,201);
 }
 .sect3 {
-    position: absolute;
-    left: 100px;
-    top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 90vh;
     text-align: center;
     font-size: 3rem;
     color: rgb(15,70,47);
 }
 .sect3i {
-    position: absolute;
-    right: 0px;
+    width: 50%;
+    height: 90vh;
     width: 50vw;
     height: 90vh;
 }
+.sect3i img {
+    max-width: 100%;
+    height: 100%;
+}
 .mdiv3 {
-    position: relative;
-    top: 95px;
-    background-image: url("./downloadbg.png");
-    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url("./Assets/img/downloadbg.png");
+    width: 100%;
     height: 80vh;
     background-size: cover;
     color: white;
-
+    margin-top: 2rem;
 }
 .sect4 {
-    position: absolute;
-    right: 100px;
-    top: 150px;
     font-size: 3rem;
     text-align: center;
+    margin-right: 10rem;
 }
 .btn6 {
     background-color:inherit;
@@ -231,54 +259,67 @@ button a {
     font-size: 1.6rem;
 }
 .mdiv4 {
-    position: relative;
-    top: 120px;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
     height: 63vh;
     background-color: rgb(212,233,226);
     color: rgb(15,70,47);
 
 }
 .sect5 {
-    position: absolute;
-    left: 100px;
     font-size: 2.5rem;
-    top: 100px;
+    width: 50vw;
+    height: 63vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .sect5i {
-    position: absolute;
-    right: 0px;
     height: 63vh;
     width: 50vw;
+}
+.sect5i img {
+    max-width: 100%;
+    height: 100%;
 }
 #lstd {
     font-size: 2rem;
 }
 .mdiv5 {
-    position: relative;
-    top: 150px;
-    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
     height: 20vh;
     text-align: center;
     font-size: 1.7rem;
     padding-top: 20px;
-    line-height: 2;
+    line-height: 1.5;
     border-bottom: 2px solid grey;
     color: rgb(14, 61, 22);
 }
 .foot {
-    position: relative;
-    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100;
     height: 80vh;
     border-bottom: 2px solid grey;
 
 }
 .footone {
-    position: absolute;
-    top: 180px;
+    width: 18vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
     font-size: 1.6rem;
     line-height: 2;
-    left: 50px;
     text-decoration: none;
 }
 .foot a {
@@ -286,64 +327,156 @@ button a {
     color: grey;
 }
 .foottwo {
-    position: absolute;
-    top: 180px;
+    width: 20vw;
+    height: 50vh;
     font-size: 1.6rem;
     line-height: 2;
-    left: 250px;
     width: 13vw;
     text-decoration: none;
 }
 .foot3 {
-    position: absolute;
-    top: 180px;
+    width: 18vw;
+    height: 50vh;
     font-size: 1.6rem;
     line-height: 2;
-    left: 450px;
     width: 14vw;
     text-decoration: none;
 }
 .foot4 {
-    position: absolute;
-    top: 180px;
+    width: 18vw;
+    height: 50vh;
     font-size: 1.6rem;
     line-height: 2;
-    right: 500px;
     width: 14vw;
     text-decoration: none;
 }
 .foot5 {
-    position: absolute;
-    top: 180px;
+    width: 18vw;
+    height: 50vh;
     font-size: 1.6rem;
     line-height: 2;
-    right: 200px;
     text-decoration: none;
     width: 14vw;
 }
 footer {
-        position: relative;
-        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 75vh;
         line-height: 2;
-
 }
 .foot6 {
-    position: absolute;
-    top: 80px;
+    display: flex;
+    flex-direction: column;
     font-size: 1.6rem;
     line-height: 2.5;
-    left: 50px;
     text-decoration: none;
     width: 13vw;
+    margin-left: 5rem;
+    margin-top: 2rem;
 }
 footer a {
     text-decoration: none;
     color:black;
 }
+footer p {
+    margin-left: 5rem;
+}
 .lstfoot {
-    position: absolute;
     top: 420px;
     left: 50px;
     font-size: 1.5rem;
     color: grey;
+}
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35rem;
+    height: 5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+.social-icon i {
+    font-size: 3.5rem;
+    padding-left: 2rem;
+}
+
+
+@media (max-width: 1200px) {
+    .btn {
+        width: 30rem;
+        margin-left: 25rem;
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        height: auto;
+        flex-direction: row;
+        padding: 1rem;
+    }
+
+    .hdlogo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    ul {
+        padding-left: 0;
+        display: none;
+        justify-content: center;
+    }
+
+    li {
+        float: none;
+        font-size: 1.4rem;
+    }
+
+    .btn {
+        width: 35rem;
+        margin-left: 2rem;
+        margin-top: 1rem;
+        flex-direction: row;
+    }
+
+    .btn1, .btn2, .btn3 {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        flex-direction: row;
+    }
+
+    .hdlogo {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    ul {
+        flex-direction: row;
+        padding-left: 0;
+        display: none;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+
+    .btn {
+        width: 100%;
+        margin-left: 0;
+        flex-direction: row;
+        padding: 0;
+    }
+
+    .btn1, .btn2, .btn3 {
+        margin-left: 0;
+        margin-top: 0.5rem;
+    }
 }
